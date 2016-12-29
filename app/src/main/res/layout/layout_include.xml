@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.itheima.liaotianqi.view.EmojiView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/emojiView">
+
+        <include layout="@layout/activity_liaotianjiemian"/>
+        <include layout="@layout/layout_emoji"/>
+    </com.itheima.liaotianqi.view.EmojiView>
+
+</RelativeLayout>
